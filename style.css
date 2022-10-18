@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1{
+    font-family: "lobster";
+}
+
+body {
+  background-color: rgb(170, 170, 170);
+  font-size: 25px;
+}
+p {
+}
+.eu {
+  width: 300px;
+  border-radius: 50%;
+}
+.fundopraia {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundopraia::before {
+  content: "";
+  background-image: url(img/praia.webp);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.fundo {
+  position: relative;
+}
